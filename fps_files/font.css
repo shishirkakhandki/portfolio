@@ -1,0 +1,14 @@
+@font-face 
+{
+    font-family: 'SFR';
+    src:  url('fonts/SF Pro Display Regular.ttf') format('truetype');
+}
+
+@font-face 
+{
+    font-family: 'SFB';
+    src:  url('fonts/SF Pro Display Bold.ttf') format('truetype');
+}
+
+
+.generic-footer, .disclaimer{display: none;}

@@ -1,0 +1,84 @@
+.b {
+    font-family: Consolas, monaco, monospace;
+}
+
+.r {
+    font-family: Consolas, monaco, monospace;
+    font-size: 15px;
+    letter-spacing: 1px;
+    padding: 3px 0%;
+}
+
+.lh-0 {
+    line-height: 0%;
+}
+
+.li-s-1 {
+    padding: 1% 0%;
+    line-height: 22px;
+}
+
+.li-b {
+    font-weight: 800;
+}
+
+.lnk {
+    color: black;
+}
+
+::-webkit-scrollbar {
+    height: 3px;
+    width: 3px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: rgba(0, 0, 0, 0);
+    border-radius: 14000px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: rgba(20, 19, 19, 0.2);
+    border-radius: 14000px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: rgba(20, 19, 19, 0.3);
+    cursor: pointer;
+}
+
+body {
+    width: 53%;
+    padding-left: 50px;
+}
+
+/*Nest hub max --- ignore*/
+@media screen and (min-width: 1025px) and (max-width: 1280px) {
+    body {
+        width: 60%;
+        padding-left: 10px;
+    }
+}
+
+/*iPad and or Tablets Portrait and Phones Landscape*/
+@media screen and (min-width: 788px) and (max-width: 1024px) {
+    body {
+        width: 80%;
+        padding-left: 10px;
+    }
+}
+
+/*Galaxy duo --- ignore*/
+@media screen and (min-width: 481px) and (max-width: 787px) {
+    body {
+        width: 80%;
+        padding-left: 10px;
+    }
+}
+
+/*Default Mobile Phone Screens Portrait*/
+@media screen and (min-width: 200px) and (max-width: 480px) {
+    body {
+        width: 80%;
+        padding-left: 10px;
+    }
+}
